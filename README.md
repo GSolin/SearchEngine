@@ -11,11 +11,10 @@ such as searching for a word, predicting the phrase, and ordering results by pop
 the use of an AVL tree as provided for this assignment. The problems presented by this assignment involve utilising and manipulating an AVL Tree data
 structure to achieve these functions.
 
-
 Part 2: Algorithms
 ------------------
 The most significant algorithms utilised in this assignment are:
-	1. Insertion: The function used for inserting data items into the AVL Tree
+1. Insertion: The function used for inserting data items into the AVL Tree
  
 			Pseudo Code (context of reading from a single file)
 			---------------------------------------------------
@@ -44,8 +43,7 @@ The most significant algorithms utilised in this assignment are:
 
 			Finished
 
-
-	2. Reading a library text file: This file locates a specific text file that will
+2. Reading a library text file: This file locates a specific text file that will
 	be read as a text file containing a saved library from a previous run of the
 	program. The program will read the text file and add every entry into its library
 
@@ -73,7 +71,6 @@ The most significant algorithms utilised in this assignment are:
 
 		Finished
 
-
 Part 3: Data Structures
 -----------------------
 The main data structures utilised in this assignment were:
@@ -86,7 +83,6 @@ The main data structures utilised in this assignment were:
 	5. Priority Queue:	Used only for the search engine function. Stores all instances and similarities of an inputted word and organises them based on
 							frequency before being displayed in that order
 
-
 Part 4: Complexity Analysis
 ---------------------------
 For the following chapter, a function will be stated along with its complexity (e.g. (logn), n^2, 2n, etc):
@@ -94,15 +90,18 @@ For the following chapter, a function will be stated along with its complexity (
 		In terms of insertion alone, the amount of operations should be equivalent to the total amount of words read inside a text file
 		If we are to take into account all operations including building the data before inserting it into the AVL_Tree then we end up with a
 		complexity of about:
-							n10(logm)
-		Where "10" represents the total amount of actions taken for each word read inside of a file
+  
+  		n10(logm)
+	 
+Where "10" represents the total amount of actions taken for each word read inside of a file
 
-	Rebuilding a dictionary from an add-on file:	n(6(6)4(logm))
-		N is the equivalent to a single entry from the text file and the following numbers represent the steps taken to add that
+Rebuilding a dictionary from an add-on file:	
+			
+   		n(6(6)4(logm))
+
+N is the equivalent to a single entry from the text file and the following numbers represent the steps taken to add that
 		entry into the dictionary. The 6 encased inside the brackets refers to reading the file locations and word numbers of an entry.
 		M refers to the total amount of words already in the dictionary as search operations will get longer as the tree grows in size.
-
-
 
 Part 5: Conclusion
 ------------------
