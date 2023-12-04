@@ -1,8 +1,8 @@
-/* George Solinareos - 19563448 */
+/*  Created by George Solinareos 
+for 2nd Year Bachelors of CompSci Assignment */
 
 Assignment 2 - AVL Library 
 Documentation
-
 
 Part 1: Introduction
 --------------------
@@ -16,7 +16,7 @@ Part 2: Algorithms
 ------------------
 The most significant algorithms utilised in this assignment are:
 	1. Insertion: The function used for inserting data items into the AVL Tree
-
+ 
 			Pseudo Code (context of reading from a single file)
 			---------------------------------------------------
 			read file
@@ -46,8 +46,8 @@ The most significant algorithms utilised in this assignment are:
 
 
 	2. Reading a library text file: This file locates a specific text file that will
-		be read as a text file containing a saved library from a previous run of the
-		program. The program will read the text file and add every entry into its library
+	be read as a text file containing a saved library from a previous run of the
+	program. The program will read the text file and add every entry into its library
 
 		Pseudo Code
 		---------------------------------------------------
